@@ -25,6 +25,10 @@ const reverseString = function(s) {
     }
 };
 
+var reverseStringTwo = function(s) {
+    return s.reverse();
+};
+
 const inputOne = ["h","e","l","l","o"];
 const inputTwo = ["h","a","n","n","a","H"];
 
