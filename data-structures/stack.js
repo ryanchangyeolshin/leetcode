@@ -1,4 +1,5 @@
 // Stacks in JS
+// LAST IN, FIRST OUT
 // functions: push, pop, peak, length
 
 const letters = [];
