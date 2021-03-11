@@ -42,12 +42,10 @@ function TreeNode(val, left, right) {
 }
 
 const maxDepth = function(root) {
-    if (root.length < 1) {
-        return 0;
-    }
-
-    let count = 0;
+    if (!root) return 0;
     
+    const leftHeight = maxDepth(root.left);
+    const rightHeight = maxDepth(root.right);
 
-    return count;
+    return Math.max(leftHeight, rightHeight) + 1;
 };
